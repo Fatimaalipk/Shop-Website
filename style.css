@@ -91,6 +91,24 @@ font-size: 0.8rem;
 box-shadow: none !important;
 
 }
+@media(max-width:768px){
+    .remove-and-wish p{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        color: orangered;
+        display: flex;
+        justify-content: space-between;
+        
+}
+.set_quantity::after{
+    content: "(Note, 1 Piece )";
+
+    font-size: 0.9rem;
+    }
+    *{
+        font-size: 1.1rem;
+    }
+}
 
 
 
